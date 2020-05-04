@@ -9,10 +9,14 @@
   padding: 10px;
 }
 
-.input,
-.null {
+.input {
   text-align: center;
   font-size: 70px;
+}
+
+.null {
+  text-align: center;
+  font-size: 40px;
 }
 
 button,
