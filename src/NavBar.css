@@ -1,0 +1,16 @@
+a {
+  font-size: 20px;
+  padding: 10px;
+  text-align: center;
+  font-size: 23px;
+  font-family: Helvetica, sans-serif;
+  text-decoration: none;
+}
+
+a:hover {
+  color: rgb(226, 43, 186);
+}
+
+.menu {
+  padding: 10px;
+}

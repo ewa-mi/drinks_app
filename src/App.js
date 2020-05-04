@@ -1,13 +1,18 @@
 import React from "react";
-import "./App.css";
+import { Switch, Route } from "react-router-dom";
+import Home from "./Home.js";
+import Explore from "./Explore.js";
+import NavBar from "./NavBar.js";
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <p>explore drinks</p>
-      </header>
-    </div>
+    <>
+      <NavBar />
+      <Switch>
+        <Route path="/explore" component={Explore} />
+        <Route exact path="/" component={Home} />
+      </Switch>
+    </>
   );
 }
 

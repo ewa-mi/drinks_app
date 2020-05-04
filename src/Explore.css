@@ -1,0 +1,28 @@
+.explore {
+  font-size: 100px;
+  text-align: center;
+  color: turquoise;
+}
+
+.drinks {
+  display: inline-table;
+  padding: 10px;
+}
+
+.input,
+.null {
+  text-align: center;
+  font-size: 70px;
+}
+
+button,
+input {
+  font-size: 20px;
+  border-radius: 6px;
+  padding: 10px;
+}
+
+button {
+  cursor: pointer;
+  margin-left: 5px;
+}
