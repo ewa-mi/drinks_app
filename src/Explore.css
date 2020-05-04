@@ -2,11 +2,12 @@
   font-size: 100px;
   text-align: center;
   color: turquoise;
+  margin: 20px;
 }
 
 .drinks {
-  display: inline-table;
   padding: 10px;
+  display: inline-table;
 }
 
 .input {
@@ -29,4 +30,12 @@ input {
 button {
   cursor: pointer;
   margin-left: 5px;
+}
+
+body {
+  text-align: center;
+}
+
+.imgDrink {
+  max-width: 400px;
 }

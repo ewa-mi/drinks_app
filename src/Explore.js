@@ -28,12 +28,12 @@ export default function Explore(event) {
         <button onClick={search}>Search</button>
       </p>
       {drinks && drinks.length
-        ? drinks.map((drink, index) => {
+        ? drinks.map((drink, id) => {
             return (
-              <div className="drinks" key={index}>
+              <div className="drinks" key={id}>
                 <p>Name: {drink.strDrink}</p>
 
-                <img src={drink.strDrinkThumb} />
+                <img className="imgDrink" src={drink.strDrinkThumb} />
               </div>
             );
           })
